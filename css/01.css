@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    line-height: 1;
+    color: #333;
+}
+
+
+
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #023586;
+    color: #d3d3d3;
+}
+
+.header .inner {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .inner .brand {
+    height: 90px;
+    position: absolute;
+    top:30%;
+    left: 45%;
+    transform: translate(-50%, -50%, 0);
+}
+
+.header .inner .nav {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header .inner .nav .gnd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .inner .nav .gnd .gnd-left ul {
+    display: flex;
+}
+
+.header .inner .nav .gnd .gnd-left ul li {
+    height: 100%;
+    line-height: 90px;
+    margin-left: 24px;
+}
+
+.header .inner .nav .gnd .gnd-right ul {
+    display: flex;
+}
+
+.header .inner .nav .gnd .gnd-right ul li {
+    height: 100%;
+    line-height: 90px;
+    margin-right: 24px;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.main .pb-section {
+    margin-bottom: 150px;
+}
+
+.main .pb-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .con-1 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main .con-1 h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.main .con-1 .pro-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main .con-1 .pro-list .item {
+    width: 334px;
+    height: 334px;
+    position: relative;
+}
+
+.main .con-1 .pro-list .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .con-1 .pro-list .item .img-txt {
+    background-color: #023586;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .con-1 .pro-list .item .txt h3 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 9px;
+}
+
+.main .con-1 .pro-list .item .txt p {
+    color: #b3b3b3;
+}
+
+.main .con-2 {
+    margin: 150px auto;
+    width: 1440px;
+}
+
+.main .con-2 h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.main .con-2 .item-warp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .con-2 .item-warp .item {
+    width: 334px;
+    height: 334px;
+}
+
+.main .con-2 .item-warp .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .con-2 .item-warp .item div {
+    line-height: 1.3;
+}
+
+.main .con-2 .item-warp .item div h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.main .con-2 .item-warp .item div p {
+    color: #b3b3b3;
+    margin-bottom: 25px;
+}
+
+.main .con-2 .item-warp .item div strong {
+    font-size: 22px;
+}
+
+.main .con-3 {
+    width: 1440px;
+    margin:150px auto;
+}
+
+
